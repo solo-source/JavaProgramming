@@ -14,9 +14,10 @@ public class TestingSwitch {
 		case "Regular": discountRegular = 5;
 						System.out.println(discountRegular);
 						break;
-						
 		default: discountPremium = 0;
 				discountRegular = 0;
+				System.out.println("I am here.");
+				System.out.println(discountRegular);
 		}
 		
 //		int num1 = 20;
